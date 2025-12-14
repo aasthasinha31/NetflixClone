@@ -1,0 +1,733 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#body{
+    background-color: black;
+}
+
+#header{
+height: 698px;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(background.jpg);
+background-size: cover;
+background-position: center;
+padding: 7px 8px;
+
+}
+
+#logo{
+    height: 100px;
+    width: 950px;
+    
+    position: absolute;
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#nav{
+    height:46px ;
+    width: 274px;
+    
+    background-size: cover;
+   
+}
+#nav img{
+    height: 40px;
+    width: 145px;
+}
+
+#language{
+    height: 38px;
+    width: 576px;
+    display: flex;
+    justify-content: end;
+    padding-right: 3px;
+    
+}
+
+#eng{
+    background-color: transparent;
+    color:white;
+    height: 32px;
+    width: 70px;
+    border-radius: 4px;
+    border: 2px solid white;
+   
+}
+#eng option{
+    background-color: black;
+    
+}
+
+#sign{
+    background-color: red;
+    color: white;
+    height: 32px;
+    width: 70px;
+    border: transparent;
+    border-radius: 4px;
+    position: relative;
+    left: 9px;
+    
+}
+#back{
+    height: 592px;
+    width: 1014px;
+  
+    display: inline-flexbox;
+    position: relative;
+    top: 100px;
+    margin: -16px  42px 42px 85px;
+    align-content: center;
+    color: white;
+    
+}
+
+#text1{
+    height: 100px;
+    width: 508px ;
+    
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    font-size: 50px;
+    padding-left: 7px;
+    left: 75px;
+    bottom: 60px;
+}
+.br{
+    padding-left: 144px;
+}
+#cr{
+    padding-left: 49px;
+}
+
+#text2{
+    height: 20px;
+    width: 508px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    font-size: 20px;
+    padding-left: 100px;
+    left: 75px;
+    position: relative;
+    bottom: 50px;
+}
+
+#text3{  
+    width: 508px;
+    height: 48px;
+   position: relative;
+    font-size: 18px;
+    margin: 0 auto;
+    left: 75px;
+    bottom: 40px;
+}
+
+#text4{
+     width: 508px;
+     height: 72px;
+     position: relative;
+     margin: 0 auto;
+     padding-top: 16px;
+     display: flex;
+     left: 75px;
+     bottom: 30px;
+     
+}
+
+#place{
+   width: 319px;
+    height: 56px;
+    margin-right: 12px;
+    padding: 24px 16px 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5%;
+}
+
+#button{
+    width: 319px;
+    height: 56px;
+   
+    
+}
+#button button{
+    width: 180px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: larger;
+}
+
+
+#none{
+    height: 100px;
+    background-color: black;
+  
+}
+#trending{
+    width: 850px;
+    height: 23px;
+    
+    position: relative;
+    top: 77px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+}
+
+#photo{
+     height: 250px;
+     width: 850px;
+     
+     margin: -23px 0px  64px;
+     position: relative;
+     left: 209px;
+     display: flex;
+     justify-content: space-evenly;
+    
+    
+}
+#n1{
+    width: 184px;
+    height: 208px;
+   
+    margin-top: 23px;
+    padding: 6.4px 22px;
+   
+    
+
+}
+#n2{
+    width: 184px;
+    height: 208px;
+    
+    margin-top: 23px;
+   padding: 6.4px 22px;
+  
+}
+#n3{
+    width: 184px;
+    height: 208px;
+   
+    margin-top: 23px;
+     padding: 6.4px 22px;
+   
+}
+#n4{
+    width: 184px;
+    height: 208px;
+    
+    margin-top: 23px;
+    padding: 6.4px 22px;
+    
+}
+
+
+#p1{
+    height: 196px;
+    width: 140px;
+    
+     border-radius: 4%;
+      background-image: url(squid.jpg);
+      background-size: cover;
+}
+#p2{
+    height: 196px;
+    width: 140px;
+    
+     border-radius: 4%;
+      background-image: url(kapil.jpg);
+      background-size: cover;
+}
+#p3{
+    height: 196px;
+    width: 140px;
+    
+     border-radius: 4%;
+      background-image: url(raid.avif); 
+      background-size: cover;
+}
+#p4{
+    height: 196px;
+    width: 140px;
+      border-radius: 4%;
+       background-image: url(ginny.jpg);
+       background-size: cover;
+}     
+ 
+
+#num1{
+    height: 80px;
+    width: 48px;
+   
+    position: relative;
+    bottom: 80px;
+    left: 2px;
+  
+
+}
+#num2{
+    height: 80px;
+    width: 48px;
+    
+     position: relative;
+    bottom: 80px;
+    left: 2px;
+}
+#num3{
+    height: 80px;
+    width: 48px;
+   
+     position: relative;
+    bottom: 80px;
+    left: 2px;
+}
+#num4{
+    height: 80px;
+    width: 48px;
+   
+     position: relative;
+    bottom: 80px;
+    left: 2px;
+}
+
+#box1{
+    height:530px ;
+    width: 850px  ;
+   
+    margin: 0 auto;
+    
+    
+}
+
+
+
+
+#join{
+    height: 30.67px;
+    width: 850px;
+    
+    margin: 16px 0px 0px;
+    color: white;
+    font-size: 24px;
+}
+#boxes{
+      height: 438px;
+      width: 850px;
+      margin: 16px 0px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      
+}
+
+
+#b1{
+    height: 209px;
+    width: 421px;
+    background-image: url(boxback.jpg);
+    background-size:cover;
+    margin: 0px 4px 0px 4px;
+    padding: 24px 24px 96px;
+    border-radius: 4%;
+}
+#b2{
+    height: 209px;
+    width: 421px;
+    background-image: url(boxback.jpg);
+    background-size: cover;
+    
+    padding: 24px 24px 96px;
+    border-radius: 4%;
+}
+#b3{
+    height: 209px;
+    width: 421px;
+   background-image: url(boxback.jpg);
+    background-size: cover;
+     margin: 1px 4px 0px 4px;
+      padding: 24px 24px 96px;
+     border-radius: 4%;
+}
+#b4{
+    height: 209px;
+    width: 421px;
+     background-image: url(boxback.jpg);
+    background-size: cover;
+      
+      padding: 24px 24px 96px;
+       border-radius: 4%;
+}
+
+#a{
+    height:25px ;
+    width: 337px;
+    
+    margin: 12px 0px 0px;
+    font-size: 20px;
+    color: white;
+}
+#b{
+    height:40px ;
+    width: 337px;
+   
+     font-size: 16px;
+    color: white;
+}
+
+#c{
+    height:25px ;
+    width:352px ;
+    
+    font-size: 20px;
+    color: white;
+}
+#d{
+     height:40px ;
+    width:373px ;
+    
+    font-size: 16px;
+    color: white;
+}
+#e{
+    height:25px;
+    width:373px ;
+    
+    margin: 12px 0px 0px;
+    font-size: 20px;
+    color: white;
+}
+#f{
+    height:40px;
+    width:373px ;
+   
+     font-size: 16px;
+    color: white;
+
+}
+#g{
+    height:25px ;
+    width: 373px;
+     margin: 12px 0px 0px;
+    font-size: 20px;
+    color: white;
+     
+}
+#h{
+    height:60px;
+    width:373px ;
+    
+     font-size: 16px;
+    color: white;
+}
+
+
+
+#box2{
+    height:614px ;
+    width: 850px  ;
+    
+    margin: -16px 0px 0px;
+    position: relative;
+     left: 209px;
+    
+    
+}
+#fa{
+    height:30.67px ;
+    width: 316px;
+    color: white;
+    position: relative;
+    top: 4px;
+   
+}
+#fa2{
+     height: 584px;
+     width: 850px;
+     position: relative;
+     top:34px ;
+     
+     
+}
+#q1{
+    height:84px ;
+    width: 850px;
+    background-color:#2d2c2c;
+    padding: 24px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+    
+}
+#q1:hover{
+    background-color: grey;
+}
+#q2{
+    height:84px ;
+    width: 850px;
+    background-color: #2d2c2c;
+    margin-top: 16px;
+    padding: 24px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+}
+#q2:hover{
+    background-color: grey;
+}
+#q3{
+    height:84px ;
+    width: 850px;
+    background-color: #2d2c2c;
+     margin-top: 16px;
+     padding: 24px;
+     font-size: 24px;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+}
+#q3:hover{
+    background-color: grey;
+}
+#q4{
+    height:84px ;
+    width: 850px;
+    background-color:#2d2c2c;
+     margin-top: 16px;
+     padding: 24px;
+     font-size: 24px;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+}
+#q4:hover{
+    background-color: grey;
+}
+#q5{
+    height:84px ;
+   width: 850px;
+    background-color:#2d2c2c;
+     margin-top: 16px;
+     padding: 24px;
+     font-size: 24px;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+}
+#q5:hover{
+    background-color: grey;
+}
+#q6{
+    height:84px ;
+    width: 850px;
+    background-color:#2d2c2c;
+     margin-top: 16px;
+     padding: 24px;
+     font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#q6:hover{
+    background-color: grey;
+}
+#plus{
+    height:30px ;
+    width: 30px;
+    color: white;
+   
+}
+#plus:hover{
+     transform: rotate(45deg);
+}
+
+
+
+
+#ready{
+        margin: 0 auto;
+        height:96px ;
+        width:850px ;
+        
+        position: relative;
+        top: 100px;
+       
+}
+#r1{
+     height:24px ;
+     width:644px ;
+     
+     margin: 0 auto;
+     font-size: 16px;
+     color: white;
+     
+}
+#r1 p{
+      margin-left: 56px;
+}
+#r2{
+     height:72px ;
+     width:644px ;
+   
+     margin: 0 auto;
+     padding: 16px 0px 0px;
+     display: flex;
+     justify-content: space-between;
+
+}
+#e2{
+    height: 56px;
+    width: 454px ;
+    
+    
+}
+#pp{
+     width: 454px;
+    height: 56px;
+     padding: 24px 16px 8px;
+     background-color:transparent;
+     
+     border: 1px solid white;
+     border-radius: 5%;
+}
+
+#s2{
+    height: 56px;
+    width: 180px ;
+
+}
+#s2 button{
+    width: 180px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: larger;
+}
+
+
+
+#ready2{
+        
+        height: 503px ;
+        width: 850px ;
+        
+        position: relative;
+        top: 150px;
+        left: 209px;
+         margin: -16px 0px 0px;
+
+}
+#number{
+        height: 26px ;
+        width: 274px ;
+        
+        margin: 36px 0px 0px;
+        padding: 6px;
+
+}
+#numbers{
+        height: 20px ;
+        width: 268px ;
+        color: white;
+
+}
+
+
+#link{
+        height: 164px ;
+        width:858px ;
+        
+         margin: 12px 0px 14px 0px;
+        display: flex;
+        justify-content: space-evenly;
+}
+#l1{
+    height:175px ;
+    width:284px ;
+    
+    padding: 4px;
+    color:grey;
+    list-style-type: none;
+    
+}
+
+#l2{
+    height:175px ;
+    width:284px ;
+   
+    padding: 4px;
+    list-style-type: none;
+}
+#l3{
+    height:175px ;
+    width:284px ;
+   
+    padding: 4px;
+    list-style-type: none;
+}
+
+#lang{
+    height:38x ;
+    width:130px ;
+   
+    position: relative;
+    color:#2d2c2c;
+    top: 50px;
+    margin: 36px 0px 0px;
+    padding: 3px;
+}
+#eng2{
+    
+    
+    height: 32px;
+    width: 70px;
+    border-radius: 4px;
+    border: 2px solid grey;
+    
+}
+#eng2 option{
+    background-color: black;
+    color:grey;
+    
+}
+#kchbhi{
+     height: 100%;
+    width: 100%;
+    background-color: transparent;
+     color:grey;
+}
+
+#india{
+        height: 18px;
+        width: 76.5px;
+        font-size: 14px;
+        
+        position: relative;
+        left: 209px  ;
+        color:grey;
+}
+
+#last{
+     height: 16.67px;
+     width:850px;
+     
+     position: relative;
+     left: 209px  ;
+     top: 30px;
+     font-size: 13px;
+     color:grey;
+}
